@@ -1,2 +1,5 @@
 git init : começa a comandar a pasta
 git ls-files: mostra os arquivos comandados pelo git
+git add <file>
+git commit -m "versao"
+
