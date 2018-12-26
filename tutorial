@@ -5,3 +5,4 @@ git commit -m "versao" : Marca o inicio da versao, pode-se entender como uma
 fotografia atual do projeto
 git remote add <nome_do_repositorio> <URL do repositorio>
 git push <nome_do_repositorio>
+git log : Exibe todos os commits criados
