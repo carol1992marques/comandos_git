@@ -3,5 +3,5 @@ git ls-files: mostra os arquivos comandados pelo git
 git add <file> : adciona os arquivos ao controle do git
 git commit -m "versao" : Marca o inicio da versao, pode-se entender como uma
 fotografia atual do projeto
-git remote add <nome_qualquer> <URL do repositorio>
-
+git remote add <nome_do_repositorio> <URL do repositorio>
+git push <nome_do_repositorio>
