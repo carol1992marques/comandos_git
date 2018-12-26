@@ -1,5 +1,7 @@
 git init : começa a comandar a pasta
 git ls-files: mostra os arquivos comandados pelo git
-git add <file>
-git commit -m "versao"
+git add <file> : adciona os arquivos ao controle do git
+git commit -m "versao" : Marca o inicio da versao, pode-se entender como uma
+fotografia atual do projeto
+git remote add <nome_qualquer> <URL do repositorio>
 
