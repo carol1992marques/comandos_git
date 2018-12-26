@@ -6,3 +6,7 @@ fotografia atual do projeto
 git remote add <nome_do_repositorio> <URL do repositorio>
 git push <nome_do_repositorio>
 git log : Exibe todos os commits criados
+git branch : exibe os branchs e master em uso. A marcação com asteristico marca
+qual branch esta em uso no momento
+git brach <nome_da_branch> : cria um nova branch
+git checkout <nome_da_branch> : Altera a branch em uso 
