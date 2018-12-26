@@ -1,12 +1,26 @@
-git init : começa a comandar a pasta
-git ls-files: mostra os arquivos comandados pelo git
-git add <file> : adciona os arquivos ao controle do git
+git init : começa a comandar a pasta.
+git ls-files: mostra os arquivos comandados pelo git.
+git add <file> : adciona os arquivos ao controle do git.
 git commit -m "versao" : Marca o inicio da versao, pode-se entender como uma
-fotografia atual do projeto
+fotografia atual do projeto.
 git remote add <nome_do_repositorio> <URL do repositorio>
 git push <nome_do_repositorio>
-git log : Exibe todos os commits criados
+git log : Exibe todos os commits criados.
 git branch : exibe os branchs e master em uso. A marcação com asteristico marca
-qual branch esta em uso no momento
-git brach <nome_da_branch> : cria um nova branch
-git checkout <nome_da_branch> : Altera a branch em uso 
+qual branch esta em uso no momento.
+git brach <nome_da_branch> : cria um nova branch.
+git checkout <nome_da_branch> : Altera a branch em uso.
+git branch -r : mostra as branch remotas.
+git pull : 
+git branch -t <nome_da_branch> <nome_do_repositorio>/<nome_da_branch>
+git branch -r <nome_da_branch> : cria a branch e, em seguida é
+selecionada.
+git push -u <nome_do_repositorio> <nome_da_branch>: criamos a branch remota
+design no repositório referente ao origin e criamos uma ligação entre a nossa
+branch e a branch remota.
+git push <nome_do_repositorio> :<nome_da_branch>: Este comando remove a branch
+remota.
+git push -d <nome_do_repositorio> <nome_da_branch>: Este comando remove a
+branch remota.
+git fetch <nome_do_repositorio>: Este comando verifica todas as atualizações
+que foram realizadas no repositório de atalho.
