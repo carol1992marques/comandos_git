@@ -24,3 +24,5 @@ git push -d <nome_do_repositorio> <nome_da_branch>: Este comando remove a
 branch remota.
 git fetch <nome_do_repositorio>: Este comando verifica todas as atualizações
 que foram realizadas no repositório de atalho.
+git rebase : Comando utilizado para definir nova base de commits que ser
+utilizado para resolver os conflitos commit por commit.
